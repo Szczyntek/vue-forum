@@ -1,6 +1,6 @@
 <template>
     <h1>Forum!</h1>
-    <ThreadList/>
+    <ThreadList :threads="threads"/>
 </template>
 
 <script>
@@ -15,18 +15,7 @@ export default {
   data() {
     return {
       threads: sourceData.threads,
-      posts: sourceData.posts,
-      users: sourceData.users,
     };
-  },
-  props: {},
-  methods: {
-    postById(postId) {
-      return this.posts.find((p) => p.id === postId);
-    },
-    userById(userId) {
-      return this.users.find((p) => p.id === userId);
-    },
   },
 };
 </script>

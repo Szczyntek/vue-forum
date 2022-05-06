@@ -35,12 +35,16 @@ export default {
   created() {},
   data() {
     return {
-      threads: sourceData.threads,
       posts: sourceData.posts,
       users: sourceData.users,
     };
   },
-  props: {},
+  props: {
+    threads: {
+      type: Array,
+      required: true,
+    }
+  },
   methods: {
     postById(postId) {
       return this.posts.find((p) => p.id === postId);
