@@ -48,3 +48,6 @@ git log
 ```
 git checkout 
 ```
+```
+git branch
+```
