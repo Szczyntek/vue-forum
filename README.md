@@ -51,3 +51,10 @@ git checkout
 ```
 git branch
 ```
+```
+git pull --rebase
+```
+```
+git rebase --continue
+wq
+```
