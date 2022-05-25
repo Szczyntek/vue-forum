@@ -36,3 +36,15 @@ git add .
 ```
 git status
 ```
+```
+git commit -m
+```
+```
+git commit -am
+```
+```
+git log
+```
+```
+git checkout 
+```
