@@ -24,3 +24,15 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```
 git checkout -b readme
 ```
+
+## Ogarnięte polecenia
+
+```
+git add <nazwa>
+```
+```
+git add .
+```
+```
+git status
+```
